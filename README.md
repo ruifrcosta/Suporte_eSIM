@@ -16,7 +16,7 @@ Este projeto desenvolve um plugin Cordova que permite verificar o suporte a eSIM
 
 ## Estrutura do Projeto
 
-\`\`\`
+```
 esimPlugin/
 │
 ├── src/
@@ -32,7 +32,7 @@ esimPlugin/
 ├── plugin.xml
 ├── package.json
 └── README.md
-\`\`\`
+```
 
 ## Instruções de Instalação
 
@@ -42,37 +42,37 @@ Estas instruções irão ajudá-lo a obter uma cópia do projeto em funcionament
 
 Você precisa ter Node.js, npm e Cordova instalados no seu sistema. Node.js e npm podem ser instalados a partir de [nodejs.org](https://nodejs.org/). Após instalar o Node.js, você pode instalar o Cordova usando npm:
 
-\`\`\`bash
+```bash
 npm install -g cordova
-\`\`\`
+```
 
-### Instalando
+### Instalação
 
 Para configurar o projeto na sua máquina local, siga estes passos:
 
 1. **Clone o Repositório:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/ruifrcosta/eSIM_Plugin
    cd eSIM_Plugin/esimApp
-   \`\`\`
+   ```
 
 2. **Adicionar Plataformas:**
-   \`\`\`bash
+   ```bash
    cordova platform add ios      # Para iOS
    cordova platform add android  # Para Android
-   \`\`\`
+   ```
 
 3. **Construir o Projeto:**
-   \`\`\`bash
+   ```bash
    cordova build ios      # Para iOS
    cordova build android  # Para Android
-   \`\`\`
+   ```
 
 4. **Executar a Aplicação:**
-   \`\`\`bash
+   ```bash
    cordova run ios      # Em um dispositivo ou simulador iOS
    cordova run android  # Em um dispositivo ou emulador Android
-   \`\`\`
+   ```
 
 ## Como Usar
 
@@ -82,9 +82,13 @@ Para testar o suporte a eSIM, simplesmente abra a aplicação e clique no botão
 
 Sinta-se à vontade para contribuir com este projeto. Você pode abrir issues para relatar bugs ou solicitar funcionalidades, bem como enviar pull requests com melhorias e correções.
 
+## Licença
+
+Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE.md](https://github.com/ruifrcosta/eSIM_Plugin/blob/main/LICENSE.md) para mais detalhes.
+
 ## Autor
 
-**Rui Costa** - ruifrcosta (https://github.com/ruifrcosta)
+**Rui Costa** - [ruifrcosta](https://github.com/ruifrcosta)
 
 ## Agradecimentos
 

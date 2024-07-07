@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-esim-support"
+        version="1.0.0">
+    <name>ESIMSupport</name>
+    <description>Cordova Plugin to check eSIM support</description>
+    <license>MIT</license>
+    <keywords>cordova, esim, plugin</keywords>
+    <engines>
+        <engine name="cordova" version=">=6.0.0" />
+    </engines>
+    <platform name="ios">
+        <source-file src="src/ios/ESIMSupport.swift" />
+    </platform>
+    <platform name="android">
+        <source-file src="src/android/ESIMSupport.java" />
+    </platform>
+    <js-module src="www/ESIMSupport.js" name="ESIMSupport">
+        <clobbers target="cordova.plugins.ESIMSupport" />
+    </js-module>
+</plugin>
